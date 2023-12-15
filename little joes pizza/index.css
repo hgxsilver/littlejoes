@@ -1,0 +1,196 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #BD922A;
+}
+.container{
+
+background-color: rgb(247, 234, 200);
+max-width: 700px;
+padding: 10px;
+}
+.logo > img{
+    width: 350px;
+    height: 200px;
+}
+.logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.second{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.main1{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    font-size: 15px;
+ 
+}
+
+.main12{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 150px;
+    padding: 10px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+.toppings5{
+    font-size: 9px;
+}
+
+.aboutJoe{
+    padding:10px;
+}
+
+.combo{
+    text-align: center;
+    padding: 5px;
+    line-height: 2px;
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.hoursMain{
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+    padding: 0px;       
+}
+
+.hours{
+    font-size: 15px;
+    line-height: 3px;
+}
+
+.address{
+   font-weight: bold;
+}
+
+.mainImages{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.mainImages > img{
+    display: flex;
+
+    flex-grow: 1;
+    flex-shrink: 1;
+    max-width: 250px;
+    max-height: 400px;
+}
+
+.leftPanel{
+    width:200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+
+
+.caterTitle{
+    text-decoration: underline;
+}
+.pop{
+    font-weight: bold;
+    color:red;
+}
+.bold{
+    font-weight: bold;
+}
+
+.payment {
+
+display: flex;
+justify-content: space-around;
+}
+
+.payment > img{
+
+    padding:20px;
+}
+.email {
+    font-weight: bold;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.number{
+    font-weight: bold;
+}
+
+.create{
+display: flex;
+flex-direction: row;
+
+}
+
+.type{
+    padding-right: 10px;
+    width:200px;
+}
+.size{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.Gluten{
+    text-align: center;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.description{
+    padding-left: 20px;
+    text-align: left;
+    width:70%;
+}
